@@ -23,7 +23,7 @@ namespace DAO
 
         private DataProvider() { }
 
-        private String connectionSTR = @"Data Source=.\SQLEXPRESS;Initial Catalog=BENHVIENTU;Integrated Security=True";
+        private String connectionSTR = @"Data Source=DESKTOP-AVHKV88\bmcsdl2;Initial Catalog=BENHVIENTU;Integrated Security=True";
 
 
         public DataTable ExecuteQuery(String query)

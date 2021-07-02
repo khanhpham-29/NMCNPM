@@ -10,3 +10,15 @@ C:\Users\84905\Desktop\DTO\obj\Debug\net5.0\DTO.csproj.CoreCompileInputs.cache
 C:\Users\84905\Desktop\DTO\obj\Debug\net5.0\DTO.dll
 C:\Users\84905\Desktop\DTO\obj\Debug\net5.0\ref\DTO.dll
 C:\Users\84905\Desktop\DTO\obj\Debug\net5.0\DTO.pdb
+C:\Users\nhatc\source\repos\CloneNMCNPM\DTO\bin\Debug\net5.0\DTO.deps.json
+C:\Users\nhatc\source\repos\CloneNMCNPM\DTO\bin\Debug\net5.0\DTO.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\DTO\bin\Debug\net5.0\ref\DTO.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\DTO\bin\Debug\net5.0\DTO.pdb
+C:\Users\nhatc\source\repos\CloneNMCNPM\DTO\obj\Debug\net5.0\DTO.csprojAssemblyReference.cache
+C:\Users\nhatc\source\repos\CloneNMCNPM\DTO\obj\Debug\net5.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhatc\source\repos\CloneNMCNPM\DTO\obj\Debug\net5.0\DTO.AssemblyInfoInputs.cache
+C:\Users\nhatc\source\repos\CloneNMCNPM\DTO\obj\Debug\net5.0\DTO.AssemblyInfo.cs
+C:\Users\nhatc\source\repos\CloneNMCNPM\DTO\obj\Debug\net5.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\nhatc\source\repos\CloneNMCNPM\DTO\obj\Debug\net5.0\DTO.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\DTO\obj\Debug\net5.0\ref\DTO.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\DTO\obj\Debug\net5.0\DTO.pdb

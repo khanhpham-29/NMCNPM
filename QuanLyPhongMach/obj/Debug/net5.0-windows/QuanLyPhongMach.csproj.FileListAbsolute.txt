@@ -72,3 +72,40 @@ C:\Users\84905\Desktop\do an\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhon
 C:\Users\84905\Desktop\do an\QuanLyPhongMach\obj\Debug\net5.0-windows\ref\QuanLyPhongMach.dll
 C:\Users\84905\Desktop\do an\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.pdb
 C:\Users\84905\Desktop\do an\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.genruntimeconfig.cache
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\QuanLyPhongMach.exe
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\QuanLyPhongMach.deps.json
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\QuanLyPhongMach.runtimeconfig.json
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\QuanLyPhongMach.runtimeconfig.dev.json
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\QuanLyPhongMach.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\ref\QuanLyPhongMach.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\QuanLyPhongMach.pdb
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\BUS.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\DAO.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\DTO.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\BUS.pdb
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\DTO.pdb
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\bin\Debug\net5.0-windows\DAO.pdb
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.csprojAssemblyReference.cache
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.fDanhSachKhamBenh.resources
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.fLapBaoCaoThang.resources
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.fLapHoaDonThanhToan.resources
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.fLapPhieuKhamBenh.resources
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.fMain.resources
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.fThayDoiQuyDinh.resources
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.fTraCuuBenhNhan.resources
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.csproj.GenerateResource.cache
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.AssemblyInfoInputs.cache
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.AssemblyInfo.cs
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.csproj.CoreCompileInputs.cache
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.csproj.CopyComplete
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\ref\QuanLyPhongMach.dll
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.pdb
+C:\Users\nhatc\source\repos\CloneNMCNPM\QuanLyPhongMach\obj\Debug\net5.0-windows\QuanLyPhongMach.genruntimeconfig.cache
