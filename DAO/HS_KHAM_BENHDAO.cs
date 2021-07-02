@@ -15,13 +15,13 @@ namespace DAO
         {
             List<HS_KHAM_BENHDTO> lHS_KHAM_BENHDTO = new List<HS_KHAM_BENHDTO>();
 
-            String query = "SELECT TOP (40) [STT],[Ma_HS],[Ho_Ten],[Gioi_Tinh],[Nam_Sinh],[Dia_Chi]" +
-                      " FROM[BENHVIENTU].[dbo].[HS_KHAM_BENH] where CONVERT(date, Ngay_Kham) = '" +
+            String query = "SELECT TOP (40) [STT], HS_KHAM_BENH.Ma_Hs ,[Ho_Ten],[Gioi_Tinh],[Nam_Sinh],[Dia_Chi]" +
+                      " FROM[BENHVIENTU].[dbo].[HS_KHAM_BENH] join [BENHVIENTU].[dbo].DS_KHAM_BENH on DS_KHAM_BENH.Ma_HS = HS_KHAM_BENH.Ma_HS where CONVERT(date, Ngay_Kham) = '" +
                       dateTime.ToString("yyyy - MM - dd") + "' or Ngay_Kham is null";
             if(mode == 0)
             {
-                query = "SELECT TOP (40) [STT],[Ma_HS],[Ho_Ten],[Gioi_Tinh],[Nam_Sinh],[Dia_Chi]" +
-                      " FROM[BENHVIENTU].[dbo].[HS_KHAM_BENH] where CONVERT(date, Ngay_Kham) = '" +
+                query = "SELECT TOP(40)[STT], HS_KHAM_BENH.Ma_Hs ,[Ho_Ten],[Gioi_Tinh],[Nam_Sinh],[Dia_Chi]" +
+                      " FROM[BENHVIENTU].[dbo].[HS_KHAM_BENH] join [BENHVIENTU].[dbo].DS_KHAM_BENH on DS_KHAM_BENH.Ma_HS = HS_KHAM_BENH.Ma_HS where CONVERT(date, Ngay_Kham) = '" +
                       dateTime.ToString("yyyy - MM - dd") + "'";
             }
            
@@ -61,9 +61,9 @@ namespace DAO
 
         public int ThemSTTNgayKham(String Ma_HS, int STT, DateTime dateTime)
         {
-            String query = "UPDATE [BENHVIENTU].[dbo].[HS_KHAM_BENH] SET [STT] = " +
+            String query = "UPDATE [BENHVIENTU].[dbo].[DS_KHAM_BENH] SET [STT] = " +
                 STT.ToString()+ ", [Ngay_Kham] ='" + dateTime.ToString("yyyy-MM-dd") +"' WHERE  Ma_HS = '" + Ma_HS +"'";
-
+                
             return (DataProvider.Instance.ExecuteNonQuery(query));  
         }
 
@@ -90,7 +90,7 @@ namespace DAO
         {
             List<HS_KHAM_BENHDTO> lHS_KHAM_BENHDTO = new List<HS_KHAM_BENHDTO>();
 
-            String query = "SELECT [Ma_HS],[Ho_Ten],[Ngay_Kham],[Du_Doan_Loai_Benh],[Trieu_Chung] FROM[BENHVIENTU].[dbo].[HS_KHAM_BENH] ";
+            String query = "SELECT HS_KHAM_BENH.Ma_Hs ,[Ho_Ten],[Ngay_Kham],[Du_Doan_Loai_Benh],[Trieu_Chung] FROM [BENHVIENTU].[dbo].[HS_KHAM_BENH] join [BENHVIENTU].[dbo].DS_KHAM_BENH on DS_KHAM_BENH.Ma_HS = HS_KHAM_BENH.Ma_HS";
 
             DataTable dataTable = DataProvider.Instance.ExecuteQuery(query);
 
@@ -112,8 +112,8 @@ namespace DAO
         {
             List<HS_KHAM_BENHDTO> lHS_KHAM_BENHDTO = new List<HS_KHAM_BENHDTO>();
 
-            String query = "SELECT [Ma_HS],[Ho_Ten],[Ngay_Kham],[Du_Doan_Loai_Benh],[Trieu_Chung] " +
-                "FROM[BENHVIENTU].[dbo].[HS_KHAM_BENH] WHERE [Ho_Ten] LIKE '%"+ ho_Ten +"%'";
+            String query = "SELECT HS_KHAM_BENH.Ma_Hs ,[Ho_Ten],[Ngay_Kham],[Du_Doan_Loai_Benh],[Trieu_Chung] " +
+                "FROM[BENHVIENTU].[dbo].[HS_KHAM_BENH] join [BENHVIENTU].[dbo].DS_KHAM_BENH on DS_KHAM_BENH.Ma_HS = HS_KHAM_BENH.Ma_HS WHERE [Ho_Ten] LIKE '%" + ho_Ten +"%'";
 
             DataTable dataTable = DataProvider.Instance.ExecuteQuery(query);
 
@@ -138,8 +138,8 @@ namespace DAO
         {
             List<HS_KHAM_BENHDTO> lHS_KHAM_BENHDTO = new List<HS_KHAM_BENHDTO>();
 
-            String query = "SELECT [Ma_HS],[Ho_Ten],[Ngay_Kham],[Du_Doan_Loai_Benh],[Trieu_Chung] " +
-                "FROM[BENHVIENTU].[dbo].[HS_KHAM_BENH] WHERE [Ma_HS] = '"+ Ma_HS +"'";
+            String query = "SELECT HS_KHAM_BENH.Ma_Hs ,[Ho_Ten],[Ngay_Kham],[Du_Doan_Loai_Benh],[Trieu_Chung] " +
+                "FROM[BENHVIENTU].[dbo].[HS_KHAM_BENH] join [BENHVIENTU].[dbo].DS_KHAM_BENH on DS_KHAM_BENH.Ma_HS = HS_KHAM_BENH.Ma_HS WHERE HS_KHAM_BENH.Ma_Hs = '" + Ma_HS +"'";
 
             DataTable dataTable = DataProvider.Instance.ExecuteQuery(query);
 
@@ -161,7 +161,7 @@ namespace DAO
         {
             List<int[]> list = new List<int[]>();
 
-            String query = "SELECT COUNT(Ma_HS) , Day(Ngay_Kham) from[BENHVIENTU].[dbo].HS_KHAM_BENH" +
+            String query = "SELECT COUNT(HS_KHAM_BENH.Ma_HS) , Day(Ngay_Kham) from[BENHVIENTU].[dbo].HS_KHAM_BENH join [BENHVIENTU].[dbo].DS_KHAM_BENH on DS_KHAM_BENH.Ma_HS = HS_KHAM_BENH.Ma_HS" +
                 " where MONTH(Ngay_Kham) =" + month.ToString()  + " and YEAR(Ngay_Kham) = " + year.ToString() +" group by Ngay_Kham";
 
 

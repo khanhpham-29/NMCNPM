@@ -11,6 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BUS", "..\BUS\BUS.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLyPhongMach", "QuanLyPhongMach.csproj", "{F785C5F4-0283-437F-9A5B-D4843ACDCFEA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A2570C2E-7E35-4D01-822A-6D8D4F4866E1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\databenhvien.sql = ..\..\databenhvien.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

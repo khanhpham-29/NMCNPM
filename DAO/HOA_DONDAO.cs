@@ -34,9 +34,9 @@ namespace DAO
         {
             int resutl = 0;
 
-            String query = "Select sum(HOA_DON.Tien_Kham) from [BENHVIENTU].[dbo].HS_KHAM_BENH, [BENHVIENTU].[dbo].HOA_DON" +
-                " where HS_KHAM_BENH.Ma_HS = HOA_DON.Ma_HS and day(HS_KHAM_BENH.Ngay_Kham) = " + day.ToString() +
-                "and month(HS_KHAM_BENH.Ngay_Kham) ="+month.ToString() +" and year(HS_KHAM_BENH.Ngay_Kham) = " + year.ToString();
+            String query = "Select sum(HOA_DON.Tien_Kham) from [BENHVIENTU].[dbo].DS_KHAM_BENH, [BENHVIENTU].[dbo].HOA_DON" +
+                " where DS_KHAM_BENH.Ma_HS = HOA_DON.Ma_HS and day(DS_KHAM_BENH.Ngay_Kham) = " + day.ToString() +
+                "and month(DS_KHAM_BENH.Ngay_Kham) ="+month.ToString() +" and year(DS_KHAM_BENH.Ngay_Kham) = " + year.ToString();
             if (DataProvider.Instance.ExecuteSaclar(query) == DBNull.Value)
             {
                 return 0;
@@ -50,9 +50,9 @@ namespace DAO
         {
             int resutl = 0;
 
-            String query = "Select sum(HOA_DON.Tien_Thuoc) from [BENHVIENTU].[dbo].HS_KHAM_BENH, [BENHVIENTU].[dbo].HOA_DON" +
-                " where HS_KHAM_BENH.Ma_HS = HOA_DON.Ma_HS and day(HS_KHAM_BENH.Ngay_Kham) = " + day.ToString() +
-                "and month(HS_KHAM_BENH.Ngay_Kham) =" + month.ToString() + " and year(HS_KHAM_BENH.Ngay_Kham) = " + year.ToString();
+            String query = "Select sum(HOA_DON.Tien_Thuoc) from [BENHVIENTU].[dbo].DS_KHAM_BENH, [BENHVIENTU].[dbo].HOA_DON" +
+                " where DS_KHAM_BENH.Ma_HS = HOA_DON.Ma_HS and day(DS_KHAM_BENH.Ngay_Kham) = " + day.ToString() +
+                "and month(DS_KHAM_BENH.Ngay_Kham) =" + month.ToString() + " and year(DS_KHAM_BENH.Ngay_Kham) = " + year.ToString();
 
             if (DataProvider.Instance.ExecuteSaclar(query) == DBNull.Value)
             {
@@ -68,8 +68,8 @@ namespace DAO
             int resutl = 0;
 
             String query = "Select sum(HOA_DON.Tien_Kham) + sum(HOA_DON.Tien_thuoc) " +
-                "from [BENHVIENTU].[dbo].HS_KHAM_BENH, [BENHVIENTU].[dbo].HOA_DON where HS_KHAM_BENH.Ma_HS = HOA_DON.Ma_HS and" +
-                " month(HS_KHAM_BENH.Ngay_Kham) = "+ month.ToString()+ " and year(HS_KHAM_BENH.Ngay_Kham) =" + year.ToString();
+                "from [BENHVIENTU].[dbo].DS_KHAM_BENH, [BENHVIENTU].[dbo].HOA_DON where DS_KHAM_BENH.Ma_HS = HOA_DON.Ma_HS and" +
+                " month(DS_KHAM_BENH.Ngay_Kham) = "+ month.ToString()+ " and year(DS_KHAM_BENH.Ngay_Kham) =" + year.ToString();
 
             if(DataProvider.Instance.ExecuteSaclar(query) == DBNull.Value)
             {

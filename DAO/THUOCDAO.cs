@@ -16,9 +16,9 @@ namespace DAO
             List<THUOCDTO> list = new List<THUOCDTO>();
 
             String query = "select THUOC.Ma_thuoc, THUOC.Ten_thuoc, THUOC.Don_Vi, sum(So_luong), COUNT(CHI_TIET_TOA_THUOC.Ma_HS) " +
-                "from THUOC, CHI_TIET_TOA_THUOC, HS_KHAM_BENH where THUOC.Ma_thuoc = CHI_TIET_TOA_THUOC.Ma_thuoc" +
-                " and HS_KHAM_BENH.Ma_HS = CHI_TIET_TOA_THUOC.Ma_HS and MONTH(HS_KHAM_BENH.Ngay_Kham)= " + month.ToString() +
-                "and YEAR(HS_KHAM_BENH.Ngay_Kham)=" + year.ToString() + "group by THUOC.Ma_thuoc, THUOC.Ten_thuoc, THUOC.Don_Vi";
+                "from THUOC, CHI_TIET_TOA_THUOC, DS_KHAM_BENH where THUOC.Ma_thuoc = CHI_TIET_TOA_THUOC.Ma_thuoc" +
+                " and DS_KHAM_BENH.Ma_HS = CHI_TIET_TOA_THUOC.Ma_HS and MONTH(DS_KHAM_BENH.Ngay_Kham)= " + month.ToString() +
+                "and YEAR(DS_KHAM_BENH.Ngay_Kham)=" + year.ToString() + "group by THUOC.Ma_thuoc, THUOC.Ten_thuoc, THUOC.Don_Vi";
 
             DataTable dataTable = DataProvider.Instance.ExecuteQuery(query);
 
